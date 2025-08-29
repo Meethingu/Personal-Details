@@ -1,0 +1,54 @@
+Vm start/stop pipeline
+
+parameters:
+- name: vmName
+  type: string
+  displayName: 'Select VM Name'
+  values:
+  - 'ai-matrix-train'
+  - 'ai-matrix-exp'
+  - 'ai-matrix-exp-2'
+
+- name: VMAction
+  type: string
+  displayName: 'Select VM Action'
+  values:
+  - 'start'
+  - 'stop'
+
+jobs:
+- job: StartStopVMJob
+  displayName: 'Start or Stop VM'
+  pool: 
+    ${{ if eq(parameters.vmName, 'ai-matrix-train') }}:
+      name: 'jio-jioengage-agent-pool'
+    ${{ if eq(parameters.vmName, 'ai-matrix-exp') }}:
+      name: 'jio-jioengage-agent-pool'
+    ${{ if eq(parameters.vmName, 'ai-matrix-exp-2') }}:
+      name: 'jio-jioengage-agent-pool'             
+    demands: start_stop
+
+  variables:
+    - name: project
+      ${{ if eq(parameters.vmName, 'ai-matrix-train') }}:
+        value: 'jio-jioengage'
+      ${{ if eq(parameters.vmName, 'ai-matrix-exp') }}:
+        value: 'jio-jioengage'
+      ${{ if eq(parameters.vmName, 'ai-matrix-exp-2') }}:
+        value: 'jio-jioengage'
+
+    - name: zone
+      ${{ if eq(parameters.vmName, 'ai-matrix-train') }}:
+        value: 'asia-south1-b'
+      ${{ if eq(parameters.vmName, 'ai-matrix-exp') }}:
+        value: 'asia-south1-a'
+      ${{ if eq(parameters.vmName, 'ai-matrix-exp-2') }}:
+        value: 'asia-south1-b'     
+                 
+  steps:
+  - script: |
+      echo "Selected VM Name: ${{ parameters['vmName'] }}"
+      echo "Project: $(project)"
+      echo "Zone: $(zone)"
+      /snap/bin/gcloud compute instances ${{ parameters['VMAction'] }} ${{ parameters['vmName'] }} --project $(project) --zone $(zone)
+    displayName: 'Start/Stop the VM'
