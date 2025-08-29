@@ -19,7 +19,7 @@ I) For Retention:- Path in Peoples First – Self services> Mobile Phone Service
 *Please Note : Employee should carry Proof of Identification and proof of address for the conversion of Corporate number to Personal.
 ii) Employees who do not want to Retain should apply for SURRENDER ACTION – Peoples First – Self services > Mobile Phone Services > Click on Mark- X > Apply for Surrender > Select Reason – Separation > Save.
 I) Letters :-
-1.  Resignation Acceptance and Relieving Letter:- The Letters are sent to your personal mail ID on or within 2 days of LWD. If you do not receive the same after 2 days, connect with Swagata.Dasgupta@ril.com.
+1.  Resignation Acceptance and Relieving Letter:- The Letters are sent to your personal mail ID on or within 2 days of LWD. If you do not receive the same after 2 days, connect with Swagata.Dasgupta@ril.com. (+919346038134)
  2.  Service Letter:- The Letters are sent to your personal mail ID post receiving the full and final settlement amount.
 J) FnF :-
 Full and Final settlement amount will be transferred to your salaried account within 45 days of your LWD.
