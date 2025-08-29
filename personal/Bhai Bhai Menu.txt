@@ -1,0 +1,129 @@
+Category	Sub- Category	 Name	6 Inch Pricing	8 Inch Pricing
+Shawarma	Chicken Shawarma	Classic Shawarma	119	149
+Shawarma	Chicken Shawarma	Beirut Bliss Shawarma	135	165
+Shawarma	Chicken Shawarma	Cheese Overload Shawarma	135	165
+Shawarma	Chicken Shawarma	Peri Peri Shawarma	135	165
+Shawarma	Chicken Shawarma	Smokey BBQ Shawarma	149	179
+Shawarma	Chicken Shawarma	Nusta Chicken Shawarma	159	189
+Shawarma	Chicken Shawarma	Royal Ottoman Shawarma	159	189
+Shawarma	Chicken Shawarma	Fiery Shawarma	159	189
+Shawarma	Chicken Shawarma	Starry Shawarma	159	189
+Shawarma	Chicken Shawarma	Chicken Nugget Shawarma	169	199
+Shawarma	Chicken Shawarma	Bhai Bhai’s Special Shawarma	169	199
+Shawarma	Veg Shawarma	Classic Veggie Wrap	119	149
+Shawarma	Veg Shawarma	Paneer Perfection Shawarma	135	165
+Shawarma	Veg Shawarma	Manchurian Magic Shawarma	135	165
+Shawarma	Veg Shawarma	Desi Delight Shawarma	135	165
+Shawarma	Veg Shawarma	Cheese Manchurian Shawarma	149	179
+Shawarma	Veg Shawarma	Peri Paneer Shawarma	159	189
+Shawarma	Veg Shawarma	Ottoman Veg Feast Shawarma	159	189
+Shawarma	Veg Shawarma	Mexican Fiesta Shawarma	159	189
+Shawarma	Veg Shawarma	Angreezi Veg Feast Shawarma	159	189
+Shawarma	Veg Shawarma	Tikka Twist Shawarma	169	199
+Shawarma	Veg Shawarma	Falafel Fantasy Shawarma	169	199
+Sandwich	Chicken Sandwich	Chicken Classic Crunch	159	
+Sandwich	Chicken Sandwich	Cheese Lovers Chicken Sandwich	179	
+Sandwich	Chicken Sandwich	Tandoori Temptation Sandwich	179	
+Sandwich	Chicken Sandwich	Bhai Bhai Special Sandwich	189	
+Sandwich	Chicken Sandwich	Grilled Tandoori Delight	179	
+Sandwich	Chicken Sandwich	Peri Peri Passion Sandwich	179	
+Sandwich	Chicken Sandwich	The Firangi Sandwich	179	
+Sandwich	Chicken Sandwich	Tikka Fiesta Sandwich	189	
+Sandwich	Chicken Sandwich	The Fiery Fusion Sandwich	179	
+Sandwich	Chicken Sandwich	Jungle Vibes Chicken Sandwich	169	
+Sandwich	Chicken Sandwich	Mexican Spice Sandwich	169	
+Sandwich	Veg Sandwich	Veggie Delight Sandwich	159	
+Sandwich	Veg Sandwich	Paneer Shawarma Stack	179	
+Sandwich	Veg Sandwich	Manchurian Veggie Crunch	179	
+Sandwich	Veg Sandwich	Desi Paneer Sandwich	189	
+Sandwich	Veg Sandwich	Cheese Manchurian Melt	179	
+Sandwich	Veg Sandwich	Peri Paneer Crunch	179	
+Sandwich	Veg Sandwich	Ottoman Veggie Feast	179	
+Sandwich	Veg Sandwich	Mexican Veggie Twist	189	
+Sandwich	Veg Sandwich	Angreezi Veggie Sandwich	179	
+Sandwich	Veg Sandwich	Tikka Paneer Sandwich	169	
+Sandwich	Veg Sandwich	Falafel Finesse Sandwich	169	
+Burger	Chicken Burger	Classic Crunch Chicken Burger	139	
+Burger	Chicken Burger	Cheese Burger Explosion	149	
+Burger	Chicken Burger	El Chapo Supreme Burger	159	
+Burger	Chicken Burger	Crunch Monster Burger	159	
+Burger	Chicken Burger	Cheese Dream Chicken Burger	159	
+Burger	Chicken Burger	Zesty Zing Chicken Burger	159	
+Burger	Chicken Burger	Ottoman Royal Burger	169	
+Burger	Chicken Burger	Bhai Bhai’s Special Burger	169	
+Burger	Veg Burger	Classic Veggie Burger	139	
+Burger	Veg Burger	Cheese Veggie Melt	149	
+Burger	Veg Burger	Spicy Paneer Delight	159	
+Burger	Veg Burger	Tandoori Paneer Crunch	159	
+Burger	Veg Burger	Tandoori Tikki Burger	159	
+Burger	Veg Burger	Barbeque Veggie Smoke	159	
+Combo	Combo	Classic Non-Veg Meal	450	
+Combo	Combo	Netflix & chill Meal 	500	
+Combo	Combo	Bhai-Bhai Special Combo	550	
+Combo	Combo	Classic Veg Meal	450	
+Combo	Combo	Netflix & chill Meal 	500	
+Combo	Combo	Bhai-Bhai Special Veg Combo	550	
+Poppin' Bites & Sides	Poppin' Bites	Chicken Popcorn (Choose M or L)	99 , 119 , 159	
+Poppin' Bites & Sides	Poppin' Bites	Peri Peri Popcorn Crunch (Choose M or L)	109 , 129 , 169	
+Poppin' Bites & Sides	Poppin' Bites	Cheese Corn Bombs	199	
+Poppin' Bites & Sides	Fries	Golden Crispy Fries (Choose S,M or L)	89 , 109 , 159	
+Poppin' Bites & Sides	Fries	Cheese Peri Fries (Choose S,M or L)	99 , 119 , 169	
+Poppin' Bites & Sides	Fries	Loaded Chicken Fries	199	
+Poppin' Bites & Sides	Fries	Popcorn Fries Delight	199	
+Poppin' Bites & Sides	Fried Strips	Crispy Fried Chicken Sticks	229	
+Poppin' Bites & Sides	Fried Strips	Crispy Chicken Bites	229	
+Poppin' Bites & Sides	Fried Strips	Chicken Nugget Bites	259	
+Veg Sliders	Veg Slider	Potato Wedge Bites(Choose S,M or L)	259	
+Veg Sliders	Veg Slider	Cheesy Veggie Balls	219	
+Veg Sliders	Veg Slider	Falafel Veggie Bites (Choose M or L)	219	
+Veg Sliders	Veg Slider	Hara Bhara Veg Kebab	219	
+Drinks	Mojitos	Minty Fresh Mojito	79	
+Drinks	Mojitos	Tropical Guava Mojito	91	
+Drinks	Mojitos	Sunny Pina Mojito	91	
+Drinks	Mojitos	Berry Blast Mojito	91	
+Drinks	Mojitos	Ocean Breeze Mojito	104	
+Drinks	Mojitos	Citrus Zing Mojito	104	
+Drinks	Mojitos	Lusty Litchi Mojito	104	
+Drinks	Mojitos	Sex On The Beach	129	
+Drinks	Mojitos	Bhai Bhai Special Mojito	129	
+Drinks	Milkshakes	Sharjah Dream Shake	159	
+Drinks	Milkshakes	StrawBerry Delight Shake	149	
+Drinks	Milkshakes	Tropical Banana Bliss	159	
+Drinks	Milkshakes	Chocolate Milkshake	159	
+Drinks	Milkshakes	Mango Tango Shake	159	
+Drinks	Milkshakes	Kitkat Crunch Shake	159	
+Drinks	Milkshakes	Oreo Dream Shake	159	
+Drinks	Milkshakes	Chocolate Hazelnut Milkshake	159	
+Drinks	Milkshakes	Nutella Milkshake	169	
+Drinks	Milkshakes	Classic Cold Coffee	169	
+Drinks	Milkshakes	Vanilla Milkshake	159	
+Extras	Extras	Extra Chicken	50	
+Extras	Extras	Extra Kuboos	30	
+Extras	Extras	Garlic Mayo	30	
+Extras	Extras	Cheese Dip	30	
+
+
+Customise as per your taste	Price
+Make it a Meal	
+Fries(M) + Coke 475ML(Save Rs 43)	119
+Potato Wedge (M) + Coke 475ML (Save Rs 43)	119
+Fries(S) + Coke 475ML(Save Rs 43)	109
+Potato Wedge (S) + Coke 475ML (Save Rs 43)	109
+	
+	
+Choose Your Beverage & Dessert	Price
+Butter Milk	50
+Thumps Up - 330 ml	57
+Coca-Cola Bottle (475 ML)	67
+Gulab Jamun (2 piece)	50
+	
+Choose Your Add On	Price
+Extra Kuboos	30
+Garlic Mayonnaise Dip	30
+Cheese Dip	30
+Chiplotle Dip	30
+	
+Choose Your Add On	
+No Mayo	
+
+

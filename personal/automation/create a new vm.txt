@@ -1,0 +1,64 @@
+# 🚀 Quick Steps to Create a VM in GCP Using Terraform
+
+## **1️⃣ Modify Your VM Configurations**  
+🔍 Open `terraform.tfvars` and update:
+
+```hcl
+vm_name = "my-new-vm"
+machine_type = "e2-medium"
+network = "pexip"
+subnetwork = "pexip-pub"
+os_image = "ubuntu-os-cloud/ubuntu-2204-lts"
+disk_size = 30
+```
+
+---
+
+## **2️⃣ Deploy a New VM**  
+Run these commands:
+
+```bash
+terraform init  # Run only the first time
+terraform plan -var-file="terraform.tfvars"  # Preview changes
+terraform apply -auto-approve -var-file="terraform.tfvars"  # Create VM
+```
+✔️ **Your VM is now created!**  
+
+---
+
+## **3️⃣ Modify an Existing VM (Without Recreation)**  
+If you need to change the **machine type**, follow these steps:  
+
+```bash
+gcloud compute instances stop my-new-vm --zone=asia-south1-a
+gcloud compute instances set-machine-type my-new-vm --zone=asia-south1-a --machine-type=e2-standard-4
+gcloud compute instances start my-new-vm --zone=asia-south1-a
+```
+✔️ **VM updated without deletion!**  
+
+---
+
+## **4️⃣ Delete a VM**  
+Delete using **Terraform**:  
+```bash
+terraform destroy -auto-approve -var-file="terraform.tfvars"
+```
+Or delete using **GCP CLI**:  
+```bash
+gcloud compute instances delete my-new-vm --zone=asia-south1-a --quiet
+```
+
+---
+
+### **✅ Now, Whenever You Need a New VM:**  
+1. Update `terraform.tfvars`  
+2. Run `terraform apply -auto-approve -var-file="terraform.tfvars"`  
+3. Done! 🎉  
+
+**Save this file for quick reference! 🚀**
+
+
+
+
+https://chatgpt.com/canvas/shared/67c1b6a6b19c819190909c1803da39fa
+

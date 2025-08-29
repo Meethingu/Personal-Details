@@ -1,0 +1,46 @@
+# 🚀 Quick Guide: Creating a Firewall Rule with Specific Source & Destination IPs in GCP Using Terraform
+
+## 1️⃣ Define the Firewall Rule  
+Modify `terraform.tfvars` to specify your firewall rule settings:
+
+```
+firewall_name       = "allow-ssh-access"
+source_ips          = ["203.0.113.100", "198.51.100.0/24"]  # Allowed source IPs
+destination_ips     = ["10.0.0.10", "10.0.0.20"]  # VMs that should receive traffic
+allowed_ports       = ["22"]  # SSH access
+network_name        = "pexip"
+```
+
+---
+
+## 2️⃣ Apply the Firewall Rule  
+Run the following command to deploy the firewall rule:
+
+```
+terraform apply -auto-approve -var-file="terraform.tfvars"
+```
+✔️ This will create the firewall rule based on your specified settings.
+
+---
+
+## 3️⃣ Verify the Firewall Rule  
+To confirm that the rule has been applied:
+
+```
+gcloud compute firewall-rules list --filter="name=allow-ssh-access"
+```
+
+To view detailed rule information:
+
+```
+gcloud compute firewall-rules describe allow-ssh-access
+```
+
+---
+
+## 🔥 Easily Add New Firewall Rules Anytime!  
+1. **Edit `terraform.tfvars`** → Define source & destination IPs, ports, and rule name.  
+2. **Run `terraform apply`** → Deploy the new rule effortlessly.  
+3. **Verify the rule** using `gcloud compute firewall-rules list`.  
+
+**Keep this guide handy for quick firewall rule configuration! 🚀**
